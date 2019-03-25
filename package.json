@@ -1,0 +1,29 @@
+{
+  "name": "tree_view",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "babel-loader": "^8.0.5",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yakuzaaaa/tree_view.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yakuzaaaa/tree_view/issues"
+  },
+  "homepage": "https://github.com/yakuzaaaa/tree_view#readme"
+}
