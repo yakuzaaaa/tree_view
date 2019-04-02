@@ -4,17 +4,21 @@
   "description": "",
   "private": true,
   "dependencies": {
-    "babel-loader": "^8.0.5",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "uglifyjs-webpack-plugin": "^2.1.2",
     "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.2.1",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
     "webpack": "^4.29.6"
   },
-  "devDependencies": {},
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack"
+    "start": "webpack-dev-server --hot --inline --port 3005 --host 0.0.0.0",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
